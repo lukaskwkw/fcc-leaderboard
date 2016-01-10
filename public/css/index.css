@@ -1,0 +1,63 @@
+body {
+  background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/bgnoise_lg.png"); }
+
+table {
+  border-collapse: collapse;
+  font-family: Monospace, Helvetica,Arial,sans-serif;
+  font-size: 1.1em;
+  background-color: #FFF; }
+
+caption {
+  font-variant: small-caps;
+  letter-spacing: .2em;
+  font-family: serif;
+  padding: 3%;
+  font-size: 2.5em; }
+
+th {
+  padding: 1%;
+  background-color: #ddd; }
+
+th:nth-child(3) {
+  min-width: 285px; }
+
+th:nth-child(4) {
+  min-width: 210px; }
+
+th:nth-child(n+3) {
+  cursor: pointer; }
+
+table tr:nth-child(even) {
+  background-color: rgba(0, 107, 222, 0.19); }
+
+td {
+  padding: 1%; }
+
+td:not(:nth-child(2)) {
+  text-align: center; }
+
+th:nth-child(2) {
+  min-width: 245px; }
+
+.container {
+  display: flex;
+  justify-content: center; }
+
+.username {
+  padding-left: 5%; }
+  .username:active {
+    color: red; }
+
+a:visited {
+  color: green; }
+
+.sort-arrow {
+  font-size: 2.5rem;
+  vertical-align: middle; }
+
+img {
+  vertical-align: middle;
+  border: 2px solid #ddd;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=index.css.map */
